@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.paymentservice;
+package com.omnicell.example.axon.paymentservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

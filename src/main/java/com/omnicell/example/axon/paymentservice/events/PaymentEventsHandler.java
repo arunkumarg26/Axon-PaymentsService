@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.appsdeveloperblog.paymentservice.events;
+package com.omnicell.example.axon.paymentservice.events;
 
-import com.appsdeveloperblog.estore.core.events.PaymentProcessedEvent;
-import com.appsdeveloperblog.paymentservice.data.PaymentEntity;
-import com.appsdeveloperblog.paymentservice.data.PaymentRepository;
+import com.omnicell.example.axon.core.events.PaymentProcessedEvent;
+import com.omnicell.example.axon.paymentservice.data.PaymentEntity;
+import com.omnicell.example.axon.paymentservice.data.PaymentRepository;
+
 import org.axonframework.eventhandling.EventHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

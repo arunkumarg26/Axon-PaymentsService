@@ -9,7 +9,7 @@
 		<version>2.4.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.appsdeveloperblog</groupId>
+	<groupId>com.omnicell.example.axon</groupId>
 	<artifactId>paymentservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>paymentservice</name>
@@ -33,7 +33,7 @@
 			<version>4.4.5</version>
 		</dependency>
 		<dependency>
-			<groupId>com.appsdeveloperblog.estore</groupId>
+			<groupId>com.omnicell.example.axon</groupId>
 			<artifactId>core</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>

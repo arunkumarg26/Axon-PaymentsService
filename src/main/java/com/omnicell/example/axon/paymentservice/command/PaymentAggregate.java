@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.appsdeveloperblog.paymentservice.command;
+package com.omnicell.example.axon.paymentservice.command;
 
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
@@ -11,8 +11,8 @@ import org.axonframework.modelling.command.AggregateIdentifier;
 import org.axonframework.modelling.command.AggregateLifecycle;
 import org.axonframework.spring.stereotype.Aggregate;
 
-import com.appsdeveloperblog.estore.core.commands.ProcessPaymentCommand;
-import com.appsdeveloperblog.estore.core.events.PaymentProcessedEvent;
+import com.omnicell.example.axon.core.commands.ProcessPaymentCommand;
+import com.omnicell.example.axon.core.events.PaymentProcessedEvent;
 
 @Aggregate
 public class PaymentAggregate {
